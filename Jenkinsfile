@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run Batch File') {
             steps {
-                bat 'hello.bat.txt'
+                bat 'hello.bat'
             }
         }
     }
